@@ -28,7 +28,7 @@ This repository logs my progression from standard surface rendering to volumetri
     
 - [ ] **Phase 2: Performance Engineering**
     - The current complexity is $O(N)$. I plan to implement BVH (Bounding Volume Hierarchies) to drop this to $O(\log N)$
-    - Parallelizing the render loop using **OpenMP**
+    - Parallelizing the render loop using OpenMP
     - Profiling and benchmarking the gains
 
 - [ ] **Phase 3: Medical Application (The Goal)**
